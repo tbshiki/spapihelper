@@ -1,1 +1,2 @@
-from spapihelper.spapihelper import *
+from spapihelper.AmazonSPAPIClient import *
+from spapihelper.DataConverter import *

@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 NAME = "spapihelper"
-VERSION = "0.0.1"
+VERSION = "0.0.2"
 DESCRIPTION = ""
 LONG_DESCRIPTION = ""
 LICENSE = "MIT"
@@ -14,7 +14,7 @@ CLASSIFIERS = [
 AUTHOR = "tbshiki"
 AUTHOR_EMAIL = "info@tbshiki.com"
 URL = "https://github.com/tbshiki/" + NAME
-INSTALL_REQUIRES = ["sp_api"]
+INSTALL_REQUIRES = ["python-amazon-sp-api"]
 
 setup(
     name=NAME,
